@@ -1,7 +1,7 @@
 [![DKAN Sitewide Build Status](https://travis-ci.org/nuams/dkan.svg?branch=7.x-1.x)](https://travis-ci.org/nuams/dkan)
 
 
-[![DKAN](https://drupal.org/files/dkanscreenshot.png)](http://nucivic.com/dkan)
+[![DKAN](http://f.cl.ly/items/3q3v120q0h1q2d2A3s3L/Screenshot%202014-04-29%2018.40.15.png)](http://nucivic.com/dkan)
 
 ## What is DKAN?
 
@@ -73,12 +73,22 @@ DKAN Datastore is a stand-alone module: https://github.com/nuams/dkan_datastore 
 
 ## Current Status
 
-DKAN is about to release 1.0.
+DKAN just published its 1.0 release.
 
 Contact us if you want to get involved!
 
-DKAN development is a sponsored by NUAMS. For more information about hosting and professional support options for DKAN, see http://nuams.com/products
+DKAN development is a sponsored by NUAMS. For more information about hosting and professional support options for DKAN, see http://nucivic.com
 
 ## Contributing
 
-Please file all tickets for DKAN, including those that involve code in DKAN Dataset and DKAN Datastore modules in this issue queue.
+Please file all tickets for DKAN, including those that involve code in DKAN Dataset and DKAN Datastore modules in this issue queue. We have several labels in place for you to tag the issue with and identify it with the proper component.
+
+Also, please remember to reference the issue accross repositories in order for maintainers to pick up commits and pull requests looking at the issue. You can do that for commits like this:
+
+```bash
+git commit -m "Issue nuams/dkan#<issue_number>: ..."
+```
+
+Just replace **<issue_number>** with the actual issue number. You can reference pull requests exactly like that if you add the same text **"nuams/dkan#<issue_number>"** in a comment. 
+
+This really help us detecting changes and pulling them in in faster.
