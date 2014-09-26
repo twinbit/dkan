@@ -8,7 +8,11 @@ test/vendor
 test/bin
 test/composer.lock
 test/dkan
+<<<<<<< HEAD
 
 # local settings
 drupal-org.local.make
 dkan.rebuild.local.sh
+=======
+test/local.yml
+>>>>>>> github/7.x-1.x
