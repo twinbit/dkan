@@ -32,12 +32,6 @@ projects[og_moderation][subdir] = contrib
 projects[restws][version] = 2.1
 projects[restws][subdir] = contrib
 
-projects[views_bulk_operations][version] = 3.2
-projects[views_bulk_operations][subdir] = contrib
-
-projects[views_responsive_grid][version] = 1.3
-projects[views_responsive_grid][subdir] = contrib
-
 projects[schema][version] = 1.2
 projects[schema][subdir] = contrib
 
@@ -88,7 +82,7 @@ projects[nuboot][subdir] = contrib
 projects[nuboot][download][type] = git
 projects[nuboot][download][url] = https://github.com/NuCivic/nuboot.git
 projects[nuboot][download][branch] = 7.x-1.x
-;projects[nuboot][download][tag] = 7.x-1.1
+projects[nuboot][download][revision] = "8d03665d93d35c077a1ac5f7667ef5774be6e177"
 
 ; Libraries
 libraries[font_awesome][type] = libraries
