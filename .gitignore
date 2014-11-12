@@ -12,3 +12,4 @@ test/dkan
 # local settings
 drupal-org.local.make
 dkan.rebuild.local.sh
+test/local.yml
